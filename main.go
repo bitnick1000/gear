@@ -16,6 +16,7 @@ func main() {
 	websites := strings.Split(str, "\n")
 	filter := "[/S]*"
 	for i, s := range websites {
+		s = strings.Trim(s, "\r")
 		if s == "\r" || s == "" {
 			continue
 		}

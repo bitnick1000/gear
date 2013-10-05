@@ -19,3 +19,4 @@ kankan.com
 youdao.com
 kugou.com
 baofeng.com
+github.com
